@@ -30,5 +30,5 @@ describe('TodoSearch', () => {
         TestUtils.Simulate.change(todoSearch.refs.showCompleted);
 
         expect(spy).toHaveBeenCalledWith(true, '');
-    })
+    });
 })
